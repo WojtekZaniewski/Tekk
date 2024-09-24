@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+}
+body{
+    background-color: rgba(0,0,0,0.9)
+}
+ul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-weight: 500;
+}
+li{
+    align-items: center;
+    padding: 30px;
+    font-size: 18px;
+}
+.hr1{
+background-color: blue;
+}
+ul a:hover{
+    color: lightblue;
+    transition: 0.4s;
+}
+h1{
+    padding-top: 50PX;
+    font-size: 30px;
+    align-content: center;
+    justify-content: center;
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes erasing {
+  from { width: 100%; }
+  to { width: 0; }
+}
+
+.ani {
+  font-family: "Arimo", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 30px;
+  display: inline-block;
+  border-right: none; /* Brak kursora */
+}
+
+.typing-loop {
+  width: 0; /* Początkowo brak szerokości */
+  animation: 
+    typing 4s steps(30, end) 1s forwards,   /* Pisanie tekstu z 1s opóźnieniem */
+    erasing 2s steps(30, end) 6s forwards, /* Kasowanie po 6s */
+    typing 4s steps(30, end) 10s forwards; /* Powtórzenie cyklu po 10s */
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+button{
+    
+    background-color: lightblue;
+    border-radius: 50px;
+    width: 300px;
+    height: 75px;
+    font-size: 20px;
+    border-color: none;
+    outline-style: inherit;
+}
+.img1{
+    height: 500px;
+    padding-top: 20px;
+    
+}
+.img2{
+    height: 500px;
+    padding-top: 20px;
+    
+}
+
+	}
+	#header {
+		padding:5px;
+	}
+	#middle {
+		padding:5px;
+		padding-bottom:20px;
+
+        /* Wysokość nagłówka */
+	}
+	#footer {
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:60px;		/* Wysokość nagłówka */
+		
+	}
+    #napis{
+    
+
+
+}
+h2{
+    padding-top: 50px;
+    font-weight: 100;
+}
