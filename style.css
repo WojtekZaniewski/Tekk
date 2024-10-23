@@ -81,7 +81,8 @@ button{
 }
 .img2{
     height: 500px;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-left: 30px
     
 }
 
@@ -111,3 +112,4 @@ h2{
     padding-top: 50px;
     font-weight: 100;
 }
+
