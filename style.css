@@ -116,12 +116,11 @@ h2{
     padding: 20px
 }
 .button2{
-height: 150PX;
+height: 150px;
 width: 350px;
 border-radius: 10px;
     place-items: center;
     place-content: center;
     margin: 20px;
     font-size: 25px;
-    
 }
