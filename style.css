@@ -66,9 +66,9 @@ h1{
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
 }
-button{
+.button1{
     
-    background-color: lightblue;
+    background-color: lightskyblue;
     border-radius: 50px;
     width: 300px;
     height: 75px;
@@ -116,11 +116,13 @@ h2{
     padding: 20px
 }
 .button2{
-height: 150px;
+height: 150PX;
 width: 350px;
 border-radius: 10px;
     place-items: center;
     place-content: center;
     margin: 20px;
     font-size: 25px;
+    background-color: lightskyblue;
+    
 }
